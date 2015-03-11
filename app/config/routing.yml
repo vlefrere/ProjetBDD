@@ -1,3 +1,4 @@
-app:
-    resource: @AppBundle/Controller/
+main:
+    resource: "@MainBundle/Controller/"
     type:     annotation
+    prefix:   /
