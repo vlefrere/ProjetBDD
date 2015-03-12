@@ -115,7 +115,7 @@ class StudentController extends Controller
         if ($form->isValid()) {
             $em->flush();
 
-            return $this->redirect($this->generateUrl('student_edit', array('id' => $id)));
+            return $this->redirect($this->generateUrl('student'));
         }
 
         return array(
