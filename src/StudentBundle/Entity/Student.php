@@ -10,8 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="student")
  * @ORM\Entity
  */
-class Student
-{
+class Student {
     /**
      * @var integer
      *
@@ -103,21 +102,27 @@ class Student
      * @ORM\OneToOne(targetEntity="MedicalRecord")
      */
     private $medicalRecord;
-    
+
     /**
      * @ORM\OneToOne(targetEntity="InCharge")
      */
     private $personInCharge;
-    
+
     /**
      * @ORM\ManyToOne(targetEntity="MainBundle\Entity\GroupStudent")
      */
     private $group;
 
     /**
+     * @ORM\OneToOne(targetEntity="User")
+     * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
+     */
+    private $user;
+
+    /**
      * Get id
      *
-     * @return integer 
+     * @return integer
      */
     public function getId()
     {
@@ -128,19 +133,20 @@ class Student
      * Set matricule
      *
      * @param string $matricule
+     *
      * @return Student
      */
     public function setMatricule($matricule)
     {
         $this->matricule = $matricule;
-    
+
         return $this;
     }
 
     /**
      * Get matricule
      *
-     * @return string 
+     * @return string
      */
     public function getMatricule()
     {
@@ -151,19 +157,20 @@ class Student
      * Set birthdate
      *
      * @param \DateTime $birthdate
+     *
      * @return Student
      */
     public function setBirthdate($birthdate)
     {
         $this->birthdate = $birthdate;
-    
+
         return $this;
     }
 
     /**
      * Get birthdate
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getBirthdate()
     {
@@ -174,19 +181,20 @@ class Student
      * Set sex
      *
      * @param boolean $sex
+     *
      * @return Student
      */
     public function setSex($sex)
     {
         $this->sex = $sex;
-    
+
         return $this;
     }
 
     /**
      * Get sex
      *
-     * @return boolean 
+     * @return boolean
      */
     public function getSex()
     {
@@ -197,19 +205,20 @@ class Student
      * Set registerDate
      *
      * @param \DateTime $registerDate
+     *
      * @return Student
      */
     public function setRegisterDate($registerDate)
     {
         $this->registerDate = $registerDate;
-    
+
         return $this;
     }
 
     /**
      * Get registerDate
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getRegisterDate()
     {
@@ -220,19 +229,20 @@ class Student
      * Set address
      *
      * @param string $address
+     *
      * @return Student
      */
     public function setAddress($address)
     {
         $this->address = $address;
-    
+
         return $this;
     }
 
     /**
      * Get address
      *
-     * @return string 
+     * @return string
      */
     public function getAddress()
     {
@@ -243,19 +253,20 @@ class Student
      * Set zipCode
      *
      * @param string $zipCode
+     *
      * @return Student
      */
     public function setZipCode($zipCode)
     {
         $this->zipCode = $zipCode;
-    
+
         return $this;
     }
 
     /**
      * Get zipCode
      *
-     * @return string 
+     * @return string
      */
     public function getZipCode()
     {
@@ -266,19 +277,20 @@ class Student
      * Set city
      *
      * @param string $city
+     *
      * @return Student
      */
     public function setCity($city)
     {
         $this->city = $city;
-    
+
         return $this;
     }
 
     /**
      * Get city
      *
-     * @return string 
+     * @return string
      */
     public function getCity()
     {
@@ -289,19 +301,20 @@ class Student
      * Set previousSchool
      *
      * @param string $previousSchool
+     *
      * @return Student
      */
     public function setPreviousSchool($previousSchool)
     {
         $this->previousSchool = $previousSchool;
-    
+
         return $this;
     }
 
     /**
      * Get previousSchool
      *
-     * @return string 
+     * @return string
      */
     public function getPreviousSchool()
     {
@@ -312,19 +325,20 @@ class Student
      * Set photoFilename
      *
      * @param string $photoFilename
+     *
      * @return Student
      */
     public function setPhotoFilename($photoFilename)
     {
         $this->photoFilename = $photoFilename;
-    
+
         return $this;
     }
 
     /**
      * Get photoFilename
      *
-     * @return string 
+     * @return string
      */
     public function getPhotoFilename()
     {
@@ -335,19 +349,20 @@ class Student
      * Set homeTelephone
      *
      * @param string $homeTelephone
+     *
      * @return Student
      */
     public function setHomeTelephone($homeTelephone)
     {
         $this->homeTelephone = $homeTelephone;
-    
+
         return $this;
     }
 
     /**
      * Get homeTelephone
      *
-     * @return string 
+     * @return string
      */
     public function getHomeTelephone()
     {
@@ -358,54 +373,71 @@ class Student
      * Set mobileNumber
      *
      * @param string $mobileNumber
+     *
      * @return Student
      */
     public function setMobileNumber($mobileNumber)
     {
         $this->mobileNumber = $mobileNumber;
-    
+
         return $this;
     }
 
     /**
      * Get mobileNumber
      *
-     * @return string 
+     * @return string
      */
     public function getMobileNumber()
     {
         return $this->mobileNumber;
     }
-    
+
     public function getMedicalRecord()
     {
         return $this->medicalRecord;
     }
-    
+
     public function setMedicalRecord($medicalRecord)
     {
         $this->medicalRecord = $medicalRecord;
-        
+
         return $this;
     }
-    
-    public function setPersonInCharge($personInCharge) {
+
+    public function setPersonInCharge($personInCharge)
+    {
         $this->personInCharge = $personInCharge;
-        
+
         return $this;
     }
-    
-    public function getPersonInCharge() {
+
+    public function getPersonInCharge()
+    {
         return $this->personInCharge;
     }
-    
-    public function getGroup() {
+
+    public function getGroup()
+    {
         return $this->group;
     }
-    
-    public function setGroup($group) {
+
+    public function setGroup($group)
+    {
         $this->group = $group;
-        
+
+        return $this;
+    }
+
+    public function getUser()
+    {
+        return $this->user;
+    }
+
+    public function setUser($user)
+    {
+        $this->user = $user;
+
         return $this;
     }
 }

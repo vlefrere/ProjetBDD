@@ -1,72 +1,109 @@
-{% extends '::base.html.twig' %}
+{% extends 'MainBundle::layout.html.twig' %}
 
 {% block body -%}
-    <h1>Student</h1>
+    <h1>Etudiant</h1>
 
-    <table class="record_properties">
-        <tbody>
-            <tr>
-                <th>Id</th>
-                <td>{{ entity.id }}</td>
-            </tr>
-            <tr>
-                <th>Matricule</th>
-                <td>{{ entity.matricule }}</td>
-            </tr>
-            <tr>
-                <th>Birthdate</th>
-                <td>{{ entity.birthdate|date('Y-m-d H:i:s') }}</td>
-            </tr>
-            <tr>
-                <th>Sex</th>
-                <td>{{ entity.sex }}</td>
-            </tr>
-            <tr>
-                <th>Registerdate</th>
-                <td>{{ entity.registerDate|date('Y-m-d H:i:s') }}</td>
-            </tr>
-            <tr>
-                <th>Address</th>
-                <td>{{ entity.address }}</td>
-            </tr>
-            <tr>
-                <th>Zipcode</th>
-                <td>{{ entity.zipCode }}</td>
-            </tr>
-            <tr>
-                <th>City</th>
-                <td>{{ entity.city }}</td>
-            </tr>
-            <tr>
-                <th>Previousschool</th>
-                <td>{{ entity.previousSchool }}</td>
-            </tr>
-            <tr>
-                <th>Photofilename</th>
-                <td>{{ entity.photoFilename }}</td>
-            </tr>
-            <tr>
-                <th>Hometelephone</th>
-                <td>{{ entity.homeTelephone }}</td>
-            </tr>
-            <tr>
-                <th>Mobilenumber</th>
-                <td>{{ entity.mobileNumber }}</td>
-            </tr>
-        </tbody>
-    </table>
+    <fieldset>
+        <legend>Informations Personnelles</legend>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <th>Matricule</th>
+                    <td>{{ entity.matricule }}</td>
+                </tr>
+                <tr>
+                    <th>Date de naissance</th>
+                    <td>{{ entity.birthdate|date('Y-m-d H:i:s') }}</td>
+                </tr>
+                <tr>
+                    <th>Sece</th>
+                    <td>{{ entity.sex }}</td>
+                </tr>
+                <tr>
+                    <th>Date de création</th>
+                    <td>{{ entity.registerDate|date('Y-m-d H:i:s') }}</td>
+                </tr>
+                <tr>
+                    <th>Adresse</th>
+                    <td>{{ entity.address }}</td>
+                </tr>
+                <tr>
+                    <th>Code Postal</th>
+                    <td>{{ entity.zipCode }}</td>
+                </tr>
+                <tr>
+                    <th>Ville</th>
+                    <td>{{ entity.city }}</td>
+                </tr>
+                <tr>
+                    <th>Etablissement précédent</th>
+                    <td>{{ entity.previousSchool }}</td>
+                </tr>
+                <tr>
+                    <th>Téléphone</th>
+                    <td>{{ entity.homeTelephone }}</td>
+                </tr>
+                <tr>
+                    <th>Portable</th>
+                    <td>{{ entity.mobileNumber }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
 
-        <ul class="record_actions">
-    <li>
-        <a href="{{ path('student') }}">
-            Back to the list
-        </a>
-    </li>
-    <li>
-        <a href="{{ path('student_edit', { 'id': entity.id }) }}">
-            Edit
-        </a>
-    </li>
-    <li>{{ form(delete_form) }}</li>
-</ul>
+    <fieldset>
+        <legend>Responsable</legend>
+        <table class="table">
+            <tr>
+                <th>Nom</th>
+                <td>{{ entity.personInCharge.lastName }}</td>
+            </tr>
+            <tr>
+                <th>Prénom</th>
+                <td>{{ entity.personInCharge.firstName }}</td>
+            </tr>
+            <tr>
+                <th>Addresse</th>
+                <td>{{ entity.personInCharge.address }}</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>{{ entity.personInCharge.email }}</td>
+            </tr>
+            <tr>
+                <th>Téléphone</th>
+                <td>{{ entity.personInCharge.telephone }}</td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Fichier Médical</legend>
+        <table class="table">
+            <tr>
+                <th>Nom du médecin traitant</th>
+                <td>{{ entity.medicalRecord.doctorLastName }}</td>
+            </tr>
+            <tr>
+                <th>Prénom du médecin traitant</th>
+                <td>{{ entity.medicalRecord.doctorFirstName }}</td>
+            </tr>
+            <tr>
+                <th>Téléphone du médecin traitant</th>
+                <td>{{ entity.medicalRecord.doctorPhone }}</td>
+            </tr>
+            <tr>
+                <th>Vaccinations</th>
+                <td>{{ entity.medicalRecord.vaccination }}</td>
+            </tr>
+            <tr>
+                <th>Allergies</th>
+                <td>{{ entity.medicalRecord.allergies }}</td>
+            </tr>
+            <tr>
+                <th>Remarques</th>
+                <td>{{ entity.medicalRecord.others }}</td>
+            </tr>
+        </table>
+    </fieldset>
 {% endblock %}

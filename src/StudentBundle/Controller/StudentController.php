@@ -38,47 +38,119 @@ class StudentController extends Controller
     /**
      * Creates a new Student entity.
      *
-     * @Route("/create", name="student_create")
+     * @Route("/create/{userId}", name="student_create")
      * @Template("StudentBundle:Student:new.html.twig")
      */
-    public function createAction(Request $request)
+    public function createAction(Request $request, $userId)
     {
+        $em = $this->getDoctrine()->getManager();
         $entity = new Student();
+        $user = $em->getRepository('StudentBundle:User')->find($userId);
+
+        if($user == null) {
+            throw $this->createNotFoundException('Unable to find User entity.');
+        }
+
         $form = $this->createForm(new StudentType(), $entity, array(
-            'action' => $this->generateUrl('student_create'),
+            'action' => $this->generateUrl('student_create', array('userId' => $userId)),
             'method' => 'POST',
         ));
         $form->handleRequest($request);
 
         if ($form->isValid()) {
-            $em = $this->getDoctrine()->getManager();
+            $entity->setUser($user);
             $em->persist($entity);
             $em->flush();
 
-            return $this->redirect($this->generateUrl('student_show', array('id' => $entity->getId())));
+
+            return $this->redirect($this->generateUrl('student_create_medical', array('studentId' => $entity->getId())));
         }
 
         return array(
             'entity' => $entity,
             'form'   => $form->createView(),
+            'user' => $user
         );
     }
 
     /**
-     * Displays a form to create a new Student entity.
+     * @Route("/create/medical/{studentId}", name="student_create_medical")
+     * @Template("StudentBundle:Student:createMedical.html.twig")
      *
-     * @Route("/new", name="student_new")
-     * @Method("GET")
-     * @Template()
+     * @param \Symfony\Component\HttpFoundation\Request $request
+     * @param                                           $s  tudentId
      */
-    public function newAction()
+    public function createMedicalRecordAction(Request $request, $studentId)
     {
-        $entity = new Student();
-        $form   = $this->createCreateForm($entity);
+        $em = $this->getDoctrine()->getManager();
+        $entity = new \StudentBundle\Entity\MedicalRecord();
+        $student = $em->getRepository('StudentBundle:Student')->find($studentId);
+
+        if(!$student) {
+            throw $this->createNotFoundException('Unable to find Student entity.');
+        }
+
+        $form = $this->createForm(new \StudentBundle\Form\MedicalRecordType(), $entity, array(
+            'action' => $this->generateUrl('student_create_medical', array('studentId' => $studentId)),
+            'method' => 'POST',
+        ));
+        $form->handleRequest($request);
+
+        if($form->isValid()) {
+            $student->setMedicalRecord($entity);
+            $em->persist($entity);
+            $em->persist($student);
+            $em->flush();
+
+            return $this->redirect($this->generateUrl('student_create_incharge', array('studentId' => $studentId)));
+        }
 
         return array(
             'entity' => $entity,
-            'form'   => $form->createView(),
+            'form' => $form->createView(),
+            'student' => $student
+        );
+    }
+
+    /**
+     * @Route("/student/create/incharge/{studentId}", name="student_create_incharge")
+     * @Template("StudentBundle:Student:createInCharge.html.twig")
+     *
+     * @param \Symfony\Component\HttpFoundation\Request $request
+     * @param                                           $studentId
+     *
+     * @return \Symfony\Component\HttpFoundation\RedirectResponse
+     * @throws \Symfony\Component\HttpKernel\Exception\NotFoundHttpException
+     */
+    public function createInChargeAction(Request $request, $studentId)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $entity = new \StudentBundle\Entity\InCharge();
+        $student = $em->getRepository('StudentBundle:Student')->find($studentId);
+
+        if(!$student) {
+            throw $this->createNotFoundException('Unable to find Student entity.');
+        }
+
+        $form = $this->createForm(new \StudentBundle\Form\InChargeType(), $entity, array(
+            'action' => $this->generateUrl('student_create_incharge', array('studentId' => $studentId)),
+            'method' => 'POST',
+        ));
+        $form->handleRequest($request);
+
+        if($form->isValid()) {
+            $student->setPersonInCharge($entity);
+            $em->persist($entity);
+            $em->persist($student);
+            $em->flush();
+
+            return $this->redirect($this->generateUrl('student_show', array('id' => $studentId)));
+        }
+
+        return array(
+            'entity' => $entity,
+            'form' => $form->createView(),
+            'student' => $student
         );
     }
 
@@ -152,6 +224,7 @@ class StudentController extends Controller
 
         return $form;
     }
+
     /**
      * Edits an existing Student entity.
      *

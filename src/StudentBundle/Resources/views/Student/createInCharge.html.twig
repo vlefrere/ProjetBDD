@@ -1,0 +1,17 @@
+{% extends 'MainBundle::layout.html.twig' %}
+
+{% block body %}
+    {{ form_start(form) }}
+
+    {{ form_row(form.firstname) }}
+    {{ form_row(form.lastName) }}
+    {{ form_row(form.address) }}
+    {{ form_row(form.telephone) }}
+    {{ form_row(form.email) }}
+
+    <div class="pull-right">
+        {{ form_widget(form.submit) }}
+    </div>
+
+    {{ form_rest(form) }}
+{% endblock %}

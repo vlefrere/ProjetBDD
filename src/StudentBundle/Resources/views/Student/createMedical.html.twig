@@ -1,0 +1,18 @@
+{% extends 'MainBundle::layout.html.twig' %}
+
+{% block body %}
+    {{ form_start(form) }}
+
+    {{ form_row(form.doctorFirstName) }}
+    {{ form_row(form.doctorLastName) }}
+    {{ form_row(form.doctorPhone) }}
+    {{ form_row(form.vaccination) }}
+    {{ form_row(form.allergies) }}
+    {{ form_row(form.others) }}
+
+    <div class="pull-right">
+        {{ form_widget(form.submit) }}
+    </div>
+
+    {{ form_rest(form) }}
+{% endblock %}
