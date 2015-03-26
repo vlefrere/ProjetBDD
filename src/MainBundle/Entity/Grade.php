@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Grade
  *
- * @ORM\Table()
+ * @ORM\Table(name="grade")
  * @ORM\Entity
  */
 class Grade

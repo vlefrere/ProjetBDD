@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * MedicalRecord
  *
- * @ORM\Table()
+ * @ORM\Table(name="medical_record")
  * @ORM\Entity
  */
 class MedicalRecord

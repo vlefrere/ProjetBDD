@@ -1,0 +1,26 @@
+{% extends 'MainBundle::layout.html.twig' %}
+
+{% block body -%}
+    <h1>User list</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Email</th>
+                <th>Type d'utilisateur</th>
+                <th><a href="{{ path('user_create') }}" class="btn btn-success">Creer un nouvel utilisateur</a></th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td>{{ entity.id }}</td>
+                <td>{{ entity.email }}</td>
+                <td>{{ entity.userType }}</td>
+                <td></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

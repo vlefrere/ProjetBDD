@@ -1,0 +1,18 @@
+{% extends 'MainBundle::layout.html.twig' %}
+
+{% block body -%}
+    <h1>User creation</h1>
+
+    {{ form_start(form) }}
+
+    {{ form_row(form.firstName) }}
+    {{ form_row(form.lastName) }}
+    {{ form_row(form.email) }}
+    {{ form_row(form.password) }}
+    {{ form_row(form.userType) }}
+
+    <div class="pull-right">
+        {{ form_widget(form.submit) }}
+    </div>
+    {{ form_rest(form) }}
+{% endblock %}

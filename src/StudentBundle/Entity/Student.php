@@ -3,12 +3,12 @@
 namespace StudentBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use MainBundle\Entity\GroupStudent;
 
 /**
  * Student
  *
- * @ORM\Table()
+ * @ORM\Table(name="student")
+ * @ORM\Entity
  */
 class Student
 {
@@ -87,14 +87,14 @@ class Student
     /**
      * @var string
      *
-     * @ORM\Column(name="HomeTelephone", type="string", length=10)
+     * @ORM\Column(name="HomeTelephone", type="string", length=10, nullable=true)
      */
     private $homeTelephone;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="MobileNumber", type="string", length=10)
+     * @ORM\Column(name="MobileNumber", type="string", length=10, nullable=true)
      */
     private $mobileNumber;
 
@@ -110,7 +110,7 @@ class Student
     private $personInCharge;
     
     /**
-     * @ORM\ManyToOne(targetEntity="GroupStudent")
+     * @ORM\ManyToOne(targetEntity="MainBundle\Entity\GroupStudent")
      */
     private $group;
 

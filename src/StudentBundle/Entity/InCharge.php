@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * InCharge
  *
- * @ORM\Table()
+ * @ORM\Table(name="in_charge")
  * @ORM\Entity
  */
 class InCharge

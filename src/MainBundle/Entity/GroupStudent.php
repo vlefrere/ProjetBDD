@@ -8,7 +8,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 /**
  * GroupStudent
  *
- * @ORM\Table()
+ * @ORM\Table(name="group_student")
  * @ORM\Entity
  */
 class GroupStudent
@@ -25,7 +25,7 @@ class GroupStudent
     /**
      * @var ArrayCollection
      * 
-     * @OneToMany(targetEntity="MainBundle/Entity/Student", mappedBy="group", cascade={"persist", "remove", "merge"})
+     * @ORM\OneToMany(targetEntity="StudentBundle\Entity\Student", mappedBy="group", cascade={"persist", "remove", "merge"})
      */
     private $students;
 
