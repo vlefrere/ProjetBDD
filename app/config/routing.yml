@@ -7,3 +7,10 @@ main:
     resource: "@MainBundle/Controller/"
     type:     annotation
     prefix:   /
+
+genemu_upload:
+    resource: "@GenemuFormBundle/Resources/config/routing/upload.xml"
+
+# app/config/routing.yml
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

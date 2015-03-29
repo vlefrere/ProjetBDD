@@ -10,8 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="medical_record")
  * @ORM\Entity
  */
-class MedicalRecord
-{
+class MedicalRecord {
     /**
      * @var integer
      *
@@ -45,21 +44,21 @@ class MedicalRecord
     /**
      * @var string
      *
-     * @ORM\Column(name="vaccination", type="string", length=255)
+     * @ORM\Column(name="vaccination", type="string", length=255, nullable=true)
      */
     private $vaccination;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="allergies", type="string", length=255)
+     * @ORM\Column(name="allergies", type="string", length=255, nullable=true)
      */
     private $allergies;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="others", type="string", length=255)
+     * @ORM\Column(name="others", type="string", length=255, nullable=true)
      */
     private $others;
 
@@ -67,7 +66,7 @@ class MedicalRecord
     /**
      * Get id
      *
-     * @return integer 
+     * @return integer
      */
     public function getId()
     {
@@ -78,19 +77,20 @@ class MedicalRecord
      * Set doctorFirstName
      *
      * @param string $doctorFirstName
+     *
      * @return MedicalRecord
      */
     public function setDoctorFirstName($doctorFirstName)
     {
         $this->doctorFirstName = $doctorFirstName;
-    
+
         return $this;
     }
 
     /**
      * Get doctorFirstName
      *
-     * @return string 
+     * @return string
      */
     public function getDoctorFirstName()
     {
@@ -101,19 +101,20 @@ class MedicalRecord
      * Set doctorLastName
      *
      * @param string $doctorLastName
+     *
      * @return MedicalRecord
      */
     public function setDoctorLastName($doctorLastName)
     {
         $this->doctorLastName = $doctorLastName;
-    
+
         return $this;
     }
 
     /**
      * Get doctorLastName
      *
-     * @return string 
+     * @return string
      */
     public function getDoctorLastName()
     {
@@ -124,19 +125,20 @@ class MedicalRecord
      * Set doctorPhone
      *
      * @param string $doctorPhone
+     *
      * @return MedicalRecord
      */
     public function setDoctorPhone($doctorPhone)
     {
         $this->doctorPhone = $doctorPhone;
-    
+
         return $this;
     }
 
     /**
      * Get doctorPhone
      *
-     * @return string 
+     * @return string
      */
     public function getDoctorPhone()
     {
@@ -147,19 +149,20 @@ class MedicalRecord
      * Set vaccination
      *
      * @param string $vaccination
+     *
      * @return MedicalRecord
      */
     public function setVaccination($vaccination)
     {
         $this->vaccination = $vaccination;
-    
+
         return $this;
     }
 
     /**
      * Get vaccination
      *
-     * @return string 
+     * @return string
      */
     public function getVaccination()
     {
@@ -170,19 +173,20 @@ class MedicalRecord
      * Set allergies
      *
      * @param string $allergies
+     *
      * @return MedicalRecord
      */
     public function setAllergies($allergies)
     {
         $this->allergies = $allergies;
-    
+
         return $this;
     }
 
     /**
      * Get allergies
      *
-     * @return string 
+     * @return string
      */
     public function getAllergies()
     {
@@ -193,19 +197,20 @@ class MedicalRecord
      * Set others
      *
      * @param string $others
+     *
      * @return MedicalRecord
      */
     public function setOthers($others)
     {
         $this->others = $others;
-    
+
         return $this;
     }
 
     /**
      * Get others
      *
-     * @return string 
+     * @return string
      */
     public function getOthers()
     {

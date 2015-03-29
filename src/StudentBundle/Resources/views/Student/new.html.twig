@@ -1,18 +1,16 @@
 {% extends 'MainBundle::layout.html.twig' %}
 
-{%  block stylesheets %}
+{% block stylesheets %}
     {{ parent() }}
 {% endblock %}
 
 {% block body -%}
-    <h1>Student creation</h1>
+    <h1>Création d'un étudiant</h1>
 
     {{ form_start(form) }}
 
-    {{ form_row(form.matricule) }}
     {{ form_row(form.birthdate) }}
     {{ form_row(form.sex) }}
-    {{ form_row(form.registerDate) }}
     {{ form_row(form.address) }}
     {{ form_row(form.zipCode) }}
     {{ form_row(form.city) }}
@@ -21,7 +19,7 @@
     {{ form_row(form.homeTelephone) }}
     {{ form_row(form.mobileNumber) }}
 
-    <div class="pull-right" >
+    <div class="pull-right">
         {{ form_widget(form.submit) }}
     </div>
 

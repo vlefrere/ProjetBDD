@@ -10,8 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="grade")
  * @ORM\Entity
  */
-class Grade
-{
+class Grade {
     /**
      * @var integer
      *
@@ -49,11 +48,22 @@ class Grade
      */
     private $tP;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="StudentBundle\Entity\Student")
+     * @ORM\JoinColumn(name="student_id", referencedColumnName="matricule", nullable=true)
+     */
+    private $student;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Course")
+     */
+    private $course;
+
 
     /**
      * Get id
      *
-     * @return integer 
+     * @return integer
      */
     public function getId()
     {
@@ -64,19 +74,20 @@ class Grade
      * Set prj
      *
      * @param integer $prj
+     *
      * @return Grade
      */
     public function setPrj($prj)
     {
         $this->prj = $prj;
-    
+
         return $this;
     }
 
     /**
      * Get prj
      *
-     * @return integer 
+     * @return integer
      */
     public function getPrj()
     {
@@ -87,19 +98,20 @@ class Grade
      * Set dE
      *
      * @param integer $dE
+     *
      * @return Grade
      */
     public function setDE($dE)
     {
         $this->dE = $dE;
-    
+
         return $this;
     }
 
     /**
      * Get dE
      *
-     * @return integer 
+     * @return integer
      */
     public function getDE()
     {
@@ -110,19 +122,20 @@ class Grade
      * Set cE
      *
      * @param integer $cE
+     *
      * @return Grade
      */
     public function setCE($cE)
     {
         $this->cE = $cE;
-    
+
         return $this;
     }
 
     /**
      * Get cE
      *
-     * @return integer 
+     * @return integer
      */
     public function getCE()
     {
@@ -133,22 +146,45 @@ class Grade
      * Set tP
      *
      * @param integer $tP
+     *
      * @return Grade
      */
     public function setTP($tP)
     {
         $this->tP = $tP;
-    
+
         return $this;
     }
 
     /**
      * Get tP
      *
-     * @return integer 
+     * @return integer
      */
     public function getTP()
     {
         return $this->tP;
+    }
+
+    public function getStudent()
+    {
+        return $this->student;
+    }
+
+    public function setStudent($student)
+    {
+        $this->student = $student;
+        return $this;
+    }
+
+    public function getCourse()
+    {
+        return $this->course;
+    }
+
+    public function setCourse($course)
+    {
+        $this->course = $course;
+        return $this;
     }
 }

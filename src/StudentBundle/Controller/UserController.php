@@ -15,8 +15,7 @@ use StudentBundle\Form\UserType;
  *
  * @Route("/user")
  */
-class UserController extends Controller
-{
+class UserController extends Controller {
 
     /**
      * Lists all User entities.
@@ -40,6 +39,7 @@ class UserController extends Controller
 
     /**
      * Creates a new User entity.s     *
+     *
      * @param \Symfony\Component\HttpFoundation\Request $request
      *
      * @Route("/create", name="user_create")
@@ -49,7 +49,7 @@ class UserController extends Controller
     public function createAction(Request $request)
     {
         $entity = new User();
-        $form = $this->createForm(new UserType(), $entity, array(
+        $form   = $this->createForm(new UserType(), $entity, array(
             'action' => $this->generateUrl('user_create'),
             'method' => 'POST',
         ));
@@ -63,11 +63,18 @@ class UserController extends Controller
             $em->persist($entity);
             $em->flush();
 
-            if($entity->getUserType() == 'ROLE_STUDENT') {
+            if ($entity->getUserType() == 'ROLE_STUDENT') {
                 return $this->redirect($this->generateUrl('student_create', array('userId' => $entity->getId())));
-            } else {
-                return $this->redirect($this->generateUrl('user'));
+            } elseif ($entity->getUserType() == 'ROLE_TEACHER') {
+                $userTypeEntity = new \StudentBundle\Entity\Teacher();
+            } elseif ($entity->getUserType() == 'ROLE_ADMIN') {
+                $userTypeEntity = new \StudentBundle\Entity\Scolarity();
             }
+            $userTypeEntity->setUser($entity);
+            $em->persist($userTypeEntity);
+            $em->flush();
+
+            return $this->redirect($this->generateUrl('user'));
         }
 
         return array(
@@ -113,7 +120,7 @@ class UserController extends Controller
         $form->handleRequest($request);
 
         if ($form->isValid()) {
-            $em = $this->getDoctrine()->getManager();
+            $em     = $this->getDoctrine()->getManager();
             $entity = $em->getRepository('StudentBundle:User')->find($id);
 
             if (!$entity) {
@@ -140,7 +147,6 @@ class UserController extends Controller
             ->setAction($this->generateUrl('user_delete', array('id' => $id)))
             ->setMethod('DELETE')
             ->add('submit', 'submit', array('label' => 'Delete'))
-            ->getForm()
-        ;
+            ->getForm();
     }
 }

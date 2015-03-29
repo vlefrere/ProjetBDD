@@ -3,27 +3,23 @@
 namespace StudentBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
  * Student
  *
  * @ORM\Table(name="student")
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="StudentBundle\Repository\StudentRepository")
  */
 class Student {
-    /**
-     * @var integer
-     *
-     * @ORM\Column(name="id", type="integer")
-     * @ORM\Id
-     * @ORM\GeneratedValue(strategy="AUTO")
-     */
-    private $id;
 
     /**
      * @var string
      *
+     * @ORM\Id
      * @ORM\Column(name="matricule", type="string", length=8)
+     * @ORM\GeneratedValue(strategy="CUSTOM")
+     * @ORM\CustomIdGenerator("StudentBundle\Entity\ValueGenerator\MatriculeGenerator")
      */
     private $matricule;
 
@@ -45,6 +41,7 @@ class Student {
      * @var \DateTime
      *
      * @ORM\Column(name="registerDate", type="date")
+     * @Gedmo\Timestampable(on="create")
      */
     private $registerDate;
 
@@ -110,6 +107,7 @@ class Student {
 
     /**
      * @ORM\ManyToOne(targetEntity="MainBundle\Entity\GroupStudent")
+     * @ORM\JoinColumn(name="group_id", referencedColumnName="id", nullable=true)
      */
     private $group;
 
@@ -120,27 +118,25 @@ class Student {
     private $user;
 
     /**
-     * Get id
-     *
-     * @return integer
+     * @ORM\OneToOne(targetEntity="MainBundle\Entity\Report")
+     * @ORM\JoinColumn(referencedColumnName="id", nullable=true)
      */
-    public function getId()
-    {
-        return $this->id;
-    }
+    private $report = null;
 
     /**
-     * Set matricule
-     *
-     * @param string $matricule
-     *
-     * @return Student
+     * @ORM\OneToMany(targetEntity="MainBundle\Entity\Grade", mappedBy="student")
+     * @ORM\JoinColumn(referencedColumnName="id", nullable=true)
      */
-    public function setMatricule($matricule)
-    {
-        $this->matricule = $matricule;
+    private $grades = null;
 
-        return $this;
+    public function __construct()
+    {
+        $this->grades = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+    public function getId()
+    {
+        return $this->getMatricule();
     }
 
     /**
@@ -439,5 +435,33 @@ class Student {
         $this->user = $user;
 
         return $this;
+    }
+
+    public function getReport()
+    {
+        return $this->report;
+    }
+
+    public function setReport($report)
+    {
+        $this->report = $report;
+        return $this;
+    }
+
+    public function getGrades()
+    {
+        return $this->grades;
+    }
+
+    public function addGrade($grade)
+    {
+        $this->grades->add($grade);
+        return $this;
+    }
+
+    public function removeGrade($grade)
+    {
+        $this->grades->remove($grade);
+        return $grade;
     }
 }

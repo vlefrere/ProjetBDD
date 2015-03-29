@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title>{% block title %}Welcome!{% endblock %}</title>
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{  asset('bundles/main/vendor/bootstrap-3.3.2-dist/css/bootstrap.min.css') }}" />
-        <link rel="stylesheet" href="{{  asset('bundles/main/css/main.css') }}" />
+        <link rel="stylesheet" href="{{ asset('bundles/main/vendor/bootstrap-3.3.2-dist/css/bootstrap.min.css') }}"/>
+        <link rel="stylesheet" href="{{ asset('bundles/main/css/main.css') }}"/>
+        <link rel="stylesheet" href="{{ asset('bundles/main/vendor/font-awesome-4.3.0/css/font-awesome.min.css') }}"/>
     {% endblock %}
-    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
 </head>
 <body>
-    <div class="container">
-        {% block body %}{% endblock %}
-    </div>
+<header role="banner">
+    <hgroup>
+        <div class="tab">
+            <a href="{{ path('home') }}">Accueil</a>
+            <a href="#">Bulletin</a>
+            <a href="#">Test</a>
+            <a href="#">Test</a>
+        </div>
+        <div class="user-panel">
+            <div><i class="fa fa-user"></i> Vincent Lefrere</div>
+            <small class="pull-right">Administrateur <i class="fa fa-arrow-circle-down"></i></small>
+        </div>
+    </hgroup>
+</header>
+<div class="container">
+    {% block body %}{% endblock %}
+</div>
 {% block javascripts %}{% endblock %}
 </body>
 </html>
