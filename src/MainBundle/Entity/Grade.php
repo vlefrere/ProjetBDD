@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Grade
  *
  * @ORM\Table(name="grade")
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="MainBundle\Repository\GradeRepository")
  */
 class Grade {
     /**
@@ -56,6 +56,7 @@ class Grade {
 
     /**
      * @ORM\ManyToOne(targetEntity="Course")
+     * @ORM\JoinColumn(name="course_id", referencedColumnName="id", nullable=true)
      */
     private $course;
 

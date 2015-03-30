@@ -1,0 +1,49 @@
+{% extends 'MainBundle::layout.html.twig' %}
+
+{% block body -%}
+    <h1>Course list</h1>
+
+    <table class="table course-table">
+        <thead>
+            <tr>
+                <th rowspan="2">Id</th>
+                <th rowspan="2">Nom</th>
+                <th rowspan="2">Groupe</th>
+                <th rowspan="2">Coefficient Général</th>
+                <th colspan="4">Coefficients</th>
+                <th rowspan="2"><a href="{{ path('course_create') }}" class="pull-right btn btn-success">Créer un nouveau cours</a></th>
+            </tr>
+            <tr>
+                <th>DE</th>
+                <th>TP</th>
+                <th>Projet</th>
+                <th>CE</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('course_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.courseName }}</td>
+                <td>
+                    {% if entity.group is not null %}
+                        {{ entity.group.name }}
+                    {% else %}
+                        Aucun
+                    {% endif %}
+                </td>
+                <td>{{ entity.coef }}</td>
+                <td>{{ entity.DEcoef }}</td>
+                <td>{{ entity.TPcoef }}</td>
+                <td>{{ entity.PRJcoef }}</td>
+                <td>{{ entity.CEcoef }}</td>
+                <td>
+                    <div class="pull-right">
+                        <a href="{{ path('course_update', {'id': entity.id}) }}" class="btn btn-info">Modifier</a>
+                    </div>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

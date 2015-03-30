@@ -1,0 +1,42 @@
+{% extends 'MainBundle::layout.html.twig' %}
+
+{% block body %}
+    <h1>Ajout/Modification d'une note</h1>
+
+    <label class="block-label" for="selectCourse">Cours</label>
+    <select class="form-control" id="selectCourse" >
+        <option value="" disabled selected style='display:none;'>Choissisez le cours</option>
+        {% for course in student.group.courses %}
+            <option value="{{ course.id }}">{{ course.courseName }}</option>
+        {% else %}
+            <option disabled="true">Aucun cours assigné</option>
+        {% endfor %}
+    </select>
+    <fieldset>
+        <legend class="hidden">Notes</legend>
+        <div id="targetForm"></div>
+    </fieldset>
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script type="text/javascript">
+        $("document").ready(function(){
+            $('#selectCourse').change(function(){
+                var val = $("#selectCourse").val();
+                $.ajax('{{ path("grade_create_form") }}', {
+                    data: {
+                        studentId: '{{ student.id }}',
+                        courseId: val
+                    },
+                    method: 'POST',
+                    success: function(data) {
+                        $("#targetForm").html(data);
+                        $("legend").toggleClass('hidden');
+                    }
+                })
+            });
+        });
+    </script>
+{% endblock %}

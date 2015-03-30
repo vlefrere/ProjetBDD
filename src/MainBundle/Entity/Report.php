@@ -25,14 +25,14 @@ class Report {
      *
      * @ORM\Column(name="wasPrinted", type="boolean")
      */
-    private $wasPrinted;
+    private $wasPrinted = false;
 
     /**
      * @var boolean
      *
      * @ORM\Column(name="wasValidated", type="boolean")
      */
-    private $wasValidated;
+    private $wasValidated = false;
 
 
     /**

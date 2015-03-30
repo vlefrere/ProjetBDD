@@ -48,7 +48,8 @@ class UserController extends Controller {
      */
     public function createAction(Request $request)
     {
-        $entity = new User();
+        $userManager =  $this->get('fos_user.user_manager');
+        $entity = $userManager->createUser();
         $form   = $this->createForm(new UserType(), $entity, array(
             'action' => $this->generateUrl('user_create'),
             'method' => 'POST',
@@ -60,8 +61,6 @@ class UserController extends Controller {
             $em = $this->getDoctrine()->getManager();
             $entity->setUsername($entity->getEmail());
             $entity->addRole($entity->getUserType());
-            $em->persist($entity);
-            $em->flush();
 
             if ($entity->getUserType() == 'ROLE_STUDENT') {
                 return $this->redirect($this->generateUrl('student_create', array('userId' => $entity->getId())));
@@ -71,6 +70,8 @@ class UserController extends Controller {
                 $userTypeEntity = new \StudentBundle\Entity\Scolarity();
             }
             $userTypeEntity->setUser($entity);
+
+            $userManager->updateUser($entity);
             $em->persist($userTypeEntity);
             $em->flush();
 

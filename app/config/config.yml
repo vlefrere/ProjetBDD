@@ -80,9 +80,8 @@ fos_user:
 
 # GenemuFormBundle
 genemu_form:
-    date: ~
-    file:
-        swf: /uploadify/uploadify.swf
+    select2:
+        enabled: true
 
 stof_doctrine_extensions:
     default_locale: fr_FR

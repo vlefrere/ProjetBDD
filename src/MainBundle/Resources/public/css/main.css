@@ -37,3 +37,22 @@ hgroup div.tab a:first-child {
 hgroup div.tab a:last-child {
     border-right: none;
 }
+
+.block-label {
+    display: block;
+}
+
+div.login-form {
+    width: 30%;
+    border: solid 2px #ddd;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 7%;
+    background-color: #eee;
+}
+
+div.login-form div {
+    padding-top: 15px;
+}

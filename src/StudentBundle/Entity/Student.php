@@ -112,6 +112,8 @@ class Student {
     private $group;
 
     /**
+     * @var User
+     *
      * @ORM\OneToOne(targetEntity="User")
      * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      */
@@ -463,5 +465,10 @@ class Student {
     {
         $this->grades->remove($grade);
         return $grade;
+    }
+
+    public function __toString()
+    {
+        return '[' . $this->matricule . '] ' . $this->user->getFirstName() . ' ' . $this->user->getLastName();
     }
 }

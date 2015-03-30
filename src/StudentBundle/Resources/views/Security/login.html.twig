@@ -1,18 +1,41 @@
-{% extends 'MainBundle::layout.html.twig' %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('bundles/main/vendor/bootstrap-3.3.2-dist/css/bootstrap.min.css') }}"/>
+        <link rel="stylesheet" href="{{ asset('bundles/main/vendor/font-awesome-4.3.0/css/font-awesome.min.css') }}"/>
+        <link rel="stylesheet" href="{{ asset('bundles/main/vendor/select2-4.0.0-rc.2/dist/css/select2.min.css') }}"/>
 
-{% block body %}
-    <form action="{{ path("fos_user_security_check") }}" method="post">
-        <input type="hidden" name="_csrf_token" value="{{ csrf_token }}"/>
+        <link rel="stylesheet" href="{{ asset('bundles/main/css/main.css') }}"/>
+    {% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
+</head>
+<body>
+<div class="container">
+    <div class="login-form">
+        <form action="{{ path("fos_user_security_check") }}" method="post">
+            <input type="hidden" name="_csrf_token" value="{{ csrf_token }}"/>
 
-        <label for="username">{{ 'security.login.username'|trans }}</label>
-        <input type="text" id="username" name="_username" value="{{ last_username }}" required="required"/>
+            <div>
+                <label for="username">Email</label>
+                <input type="text" id="username" name="_username" value="{{ last_username }}" required="required" class="form-control"/>
+            </div>
 
-        <label for="password">{{ 'security.login.password'|trans }}</label>
-        <input type="password" id="password" name="_password" required="required"/>
+            <div>
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="_password" required="required" class="form-control"/>
+            </div>
 
-        <input type="checkbox" id="remember_me" name="_remember_me" value="on"/>
-        <label for="remember_me">{{ 'security.login.remember_me'|trans }}</label>
+            <div>
+                <input type="checkbox" id="remember_me" name="_remember_me" value="on"/>
+                <label for="remember_me">Se souvenir de moi</label>
+            </div>
 
-        <input type="submit" id="_submit" name="_submit" value="{{ 'security.login.submit'|trans }}"/>
-    </form>
-{% endblock %}
+            <input type="submit" id="_submit" name="_submit" value="Connexion" class="btn btn-success pull-right"/>
+            <div class="clearfix"></div>
+        </form>
+    </div>
+</div>
+</body>

@@ -29,13 +29,21 @@ class GroupStudent {
     /**
      * @var ArrayCollection
      *
-     * @ORM\OneToMany(targetEntity="StudentBundle\Entity\Student", mappedBy="group", cascade={"persist", "remove", "merge"})
+     * @ORM\OneToMany(targetEntity="StudentBundle\Entity\Student", mappedBy="group", cascade={"persist", "merge"})
      */
     private $students;
+
+    /**
+     * @var ArrayCollection
+     *
+     * @ORM\OneToMany(targetEntity="Course", mappedBy="group", cascade={"persist", "merge"})
+     */
+    private $courses;
 
     public function __construct()
     {
         $this->students = new ArrayCollection();
+        $this->courses = new ArrayCollection();
     }
 
     /**
@@ -72,5 +80,39 @@ class GroupStudent {
     public function getStudents()
     {
         return $this->students;
+    }
+
+    /**
+     * @param \Doctrine\Common\Collections\ArrayCollection $courses
+     */
+    public function setCourses($courses)
+    {
+        $this->courses = $courses;
+    }
+
+    /**
+     * @return \Doctrine\Common\Collections\ArrayCollection
+     */
+    public function getCourses()
+    {
+        return $this->courses;
+    }
+
+    public function createEmptyNote(\Doctrine\ORM\EntityManager $em)
+    {
+        foreach($this->students as $student) {
+            foreach($this->courses as $course) {
+                if(!$student->hasGradeFor($course)) {
+                    $grade = new Grade();
+                    $grade->setStudent($student);
+                    $grade->setCourse($course);
+                    $student->addGrade($grade);
+
+                    $em->persist($grade);
+                }
+            }
+            $em->persist($student);
+        }
+        $em->flush();
     }
 }

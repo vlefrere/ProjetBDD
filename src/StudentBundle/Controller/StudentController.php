@@ -59,6 +59,10 @@ class StudentController extends Controller
 
         if ($form->isValid()) {
             $entity->setUser($user);
+            $report = new \MainBundle\Entity\Report();
+            $entity->setReport($report);
+
+            $em->persist($report);
             $em->persist($entity);
             $em->flush();
 

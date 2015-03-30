@@ -21,4 +21,12 @@ class StudentRepository extends EntityRepository {
 
         return intval($result[0]['students']);
     }
+
+    public function getStudentWithoutGroupQB()
+    {
+        $qb = $this->createQueryBuilder('s');
+        $qb->where($qb->expr()->isNull('s.group'));
+
+        return $qb;
+    }
 }

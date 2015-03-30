@@ -1,0 +1,74 @@
+{% extends 'MainBundle::layout.html.twig' %}
+
+{% block body %}
+    <h1>Bulletin</h1>
+
+    <div class="pull-right">
+        {% if not student.report.wasPrinted %}
+            <a href="{{ path('grade_create', {'id': student.id}) }}" class="btn btn-success">Ajouter/Modifier une note</a>
+        {% endif %}
+        {% if student.report.wasValidated %}
+            <a class='btn btn-info' id="printReport">Imprimer le bulletin</a>
+        {% else %}
+            <a href="{{ path('validate_report', {'id': student.id}) }}" class="btn btn-info">Valider le bulletin</a>
+        {% endif %}
+    </div>
+
+    <table class="table" id="toBePrinted">
+        <thead>
+            <tr>
+                <th>Cours</th>
+                <th></th>
+                <th>Coefficient</th>
+                <th>Note</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for grade in report %}
+                <tr>
+                    <th>{{ grade.courseName }}</th>
+                    <th></th>
+                    <th>{{ grade.coef }}</th>
+                    <th>{{ grade.grade }}</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>DE</td>
+                    <td>{{ grade.de_coef }}</td>
+                    <td>{{ grade.DE }}</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>TP</td>
+                    <td>{{ grade.tp_coef }}</td>
+                    <td>{{ grade.TP }}</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Projet</td>
+                    <td>{{ grade.pjt_coef }}</td>
+                    <td>{{ grade.prj }}</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>CE</td>
+                    <td>{{ grade.ce_coef }}</td>
+                    <td>{{ grade.CE }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('bundles/main/vendor/css-to-pdf/js/xepOnline.jqPlugin.js') }}" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $("document").ready(function() {
+            $("#printReport").click(function() {
+                return xepOnline.Formatter.Format('toBePrinted');
+            });
+        });
+    </script>
+{% endblock %}

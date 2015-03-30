@@ -12,11 +12,10 @@
 namespace Genemu\Bundle\FormBundle\Form\Core\Validator;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
-use Symfony\Component\Form\Event\DataEvent;
-use Symfony\Component\Form\FormInterface;
+use Symfony\Component\Form\FormEvent;
 use Symfony\Component\Form\FormError;
 use Symfony\Component\Form\FormEvents;
-use Symfony\Component\Form\Exception\FormException;
+use Symfony\Component\Form\Exception\InvalidConfigurationException;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
@@ -43,7 +42,7 @@ class ReCaptchaValidator implements EventSubscriberInterface
 
         if (empty($options['code'])) {
             if (empty($privateKey)) {
-                throw new FormException('The child node "private_key" at path "genenu_form.captcha" must be configured.');
+                throw new InvalidConfigurationException('The child node "private_key" at path "genenu_form.recaptcha" must be configured.');
             }
 
             $this->request = $request;
@@ -70,7 +69,7 @@ class ReCaptchaValidator implements EventSubscriberInterface
         return $this->options;
     }
 
-    public function validate(DataEvent $event)
+    public function validate(FormEvent $event)
     {
         $form = $event->getForm();
 
@@ -87,7 +86,7 @@ class ReCaptchaValidator implements EventSubscriberInterface
         if (empty($this->options['code'])) {
             if (empty($datas['challenge']) || empty($datas['response'])) {
                 $error = 'The captcha is not valid.';
-            } elseif (true !== ($answer = $this->check($datas, $form->getAttribute('option_validator')))) {
+            } elseif (true !== ($answer = $this->check($datas, $form->getConfig()->getAttribute('option_validator')))) {
                 $error = sprintf('Unable to check the captcha from the server. (%s)', $answer);
             }
         } elseif ($this->options['code'] != $datas['response']) {

@@ -1,0 +1,15 @@
+{{ form_start(form) }}
+
+{{ form_row(form.DE) }}
+{{ form_row(form.TP) }}
+{{ form_row(form.prj) }}
+{{ form_row(form.CE) }}
+
+<input type="hidden" name="studentId" value="{{ student.id }}" />
+<input type="hidden" name="courseId" value="{{ course.id }}" />
+
+<div class="pull-right">
+    {{ form_widget(form.submit) }}
+</div>
+
+{{ form_rest(form) }}

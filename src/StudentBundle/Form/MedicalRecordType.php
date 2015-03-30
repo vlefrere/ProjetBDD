@@ -32,18 +32,21 @@ class MedicalRecordType extends AbstractType
             ))
             ->add('vaccination', 'textarea', array(
                 'label' => 'Vaccinations',
+                'required' => false,
                 'attr' => array(
                     'class' => 'form-control'
                 )
             ))
             ->add('allergies', 'textarea', array(
                 'label' => 'Allergies',
+                'required' => false,
                 'attr' => array(
                     'class' => 'form-control'
                 )
             ))
             ->add('others', 'textarea', array(
                 'label' => 'Remarques',
+                'required' => false,
                 'attr' => array(
                     'class' => 'form-control'
                 )

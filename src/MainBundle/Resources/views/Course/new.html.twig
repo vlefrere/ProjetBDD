@@ -1,0 +1,20 @@
+{% extends 'MainBundle::layout.html.twig' %}
+
+{% block body -%}
+    <h1>Nouveau cours</h1>
+
+    {{ form_start(form) }}
+
+    {{ form_row(form.courseName) }}
+    {{ form_row(form.coef) }}
+    {{ form_row(form.de_coef) }}
+    {{ form_row(form.tp_coef) }}
+    {{ form_row(form.prj_coef) }}
+    {{ form_row(form.ce_coef) }}
+
+    <div class="pull-right">
+        {{ form_widget(form.submit, {'attr': {'class': 'btn btn-success'} }) }}
+        <a href="{{ path('course') }}" class="btn btn-danger">Retour</a>
+    </div>
+    {{ form_rest(form) }}
+{% endblock %}

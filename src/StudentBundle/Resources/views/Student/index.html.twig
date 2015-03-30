@@ -7,7 +7,8 @@
         <thead>
             <tr>
                 <th>Matricule</th>
-                <th>Registerdate</th>
+                <th>Date de création</th>
+                <th></th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -15,14 +16,15 @@
         {% for entity in entities %}
             <tr>
                 <td>{{ entity.matricule }}</td>
-                <td>{% if entity.registerDate %}{{ entity.registerDate|date('Y-m-d H:i:s') }}{% endif %}</td>
+                <td>{% if entity.registerDate %}{{ entity.registerDate|date('d-m-Y') }}{% endif %}</td>
+                <td><a href="{{ path('grade_create', {'id': entity.id}) }}" class="btn btn-default">Ajouter/Modifier une note</a> </td>
                 <td>
                 <ul>
                     <li>
-                        <a href="{{ path('student_show', { 'id': entity.id }) }}">show</a>
+                        <a href="{{ path('student_show', { 'id': entity.id }) }}">Détails</a>
                     </li>
                     <li>
-                        <a href="{{ path('student_edit', { 'id': entity.id }) }}">edit</a>
+                        <a href="{{ path('student_edit', { 'id': entity.id }) }}">Modifier</a>
                     </li>
                 </ul>
                 </td>

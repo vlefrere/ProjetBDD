@@ -1,0 +1,46 @@
+{% extends 'MainBundle::layout.html.twig' %}
+
+{% block body -%}
+    <h1>Groupe {{ entity.name }}</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <td>{{ entity.name }}</td>
+            </tr>
+            <tr>
+                <th>Etudiants</th>
+                <td>
+                    <ul>
+                        {% for student in entity.students %}
+                            <li>{{ student }}</li>
+                        {% else %}
+                            <li>Aucun</li>
+                        {% endfor %}
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Cours</th>
+                <td>
+                    <ul>
+                        {% for course in entity.courses %}
+                            <li>{{ course.courseName }}</li>
+                        {% else %}
+                            <li>Aucun</li>
+                        {% endfor %}
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    {{ form_start(delete_form) }}
+    <div class="group_actions pull-right">
+        <a href="{{ path('group_update', {'id': entity.id}) }}" class="btn btn-info">Modifier</a>
+        {{ form_widget(delete_form.submit, {'attr': {'class': 'btn btn-danger'} }) }}
+        <a href="{{ path('group') }}" class="btn btn-default">Retour</a>
+    </div>
+    {{ form_rest(delete_form) }}
+{% endblock %}

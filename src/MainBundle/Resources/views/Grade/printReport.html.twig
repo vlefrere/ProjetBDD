@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('bundles/main/vendor/bootstrap-3.3.2-dist/css/bootstrap.min.css') }}"/>
+        <link rel="stylesheet" href="{{ asset('bundles/main/vendor/font-awesome-4.3.0/css/font-awesome.min.css') }}"/>
+        <link rel="stylesheet" href="{{ asset('bundles/main/vendor/select2-4.0.0-rc.2/dist/css/select2.min.css') }}"/>
+
+        <link rel="stylesheet" href="{{ asset('bundles/main/css/main.css') }}"/>
+    {% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
+</head>
+<body>
+<div class="container">
+    <div class="student-desc pull-left">
+        <span class="block-label">{{ student.user.firstName }} {{ student.user.lastName }}</span>
+        <span class="block-label">{{ student.address }}</span>
+        <span class="block-label">{{ student.zipCode }} {{ student.city }}</span>
+    </div>
+
+    <div class="group-desc pull-right">
+        <h3>Groupe :</h3>
+        <span style="padding-left: 5px">{{ student.group.name }}</span>
+    </div>
+</div>
+</body>

@@ -1,0 +1,28 @@
+{% extends 'MainBundle::layout.html.twig' %}
+
+{% block body -%}
+    <h1>Nouveau Groupe</h1>
+
+    {{ form_start(form) }}
+
+    {{ form_row(form.name) }}
+
+    <div>
+        <span class="block-label">{{ form_label(form.students) }}</span>
+        {{ form_widget(form.students) }}
+    </div>
+
+    <div>
+        <span class="block-label">{{ form_label(form.courses) }}</span>
+        {{ form_widget(form.courses) }}
+    </div>
+
+    <div class="pull-right">
+        {{ form_widget(form.submit) }}
+        <a href="{{ path('group') }}" class="btn btn-danger">Retour</a>
+    </div>
+
+    {{ form_end(form) }}
+{% endblock %}
+
+

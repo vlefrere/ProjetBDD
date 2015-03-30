@@ -18,6 +18,7 @@ class AppKernel extends Kernel {
             new \FOS\UserBundle\FOSUserBundle(),
             new Genemu\Bundle\FormBundle\GenemuFormBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
+            new Knp\Bundle\SnappyBundle\KnpSnappyBundle(),
 
             new MainBundle\MainBundle(),
             new StudentBundle\StudentBundle(),
