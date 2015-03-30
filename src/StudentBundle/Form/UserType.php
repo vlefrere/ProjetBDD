@@ -30,7 +30,7 @@ class UserType extends AbstractType
                     'class' => 'form-control'
                 )
             ))
-            ->add('password', 'password', array(
+            ->add('plainPassword', 'password', array(
                 'label' => 'Mot de passe',
                 'attr' => array(
                     'class' => 'form-control'

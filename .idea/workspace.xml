@@ -2,419 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7debccd2-ac8e-4478-babe-d694d69a3b40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/IMG_14072014_172613.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/IMG_15072014_104308.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/Images/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/Images/folder.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/Images/nav-tab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/Images/notice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/Images/spots.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/Images/success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/Images/warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/RC-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/folder.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/nav-tab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/notice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/spots.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Images/RC-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Images/button-print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Images/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Images/folder.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Images/nav-tab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Images/notice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Images/secret.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Images/success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Images/warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ak.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/al.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/az.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ca.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/co.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ct.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/de.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/fl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ga.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/hi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/id.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/il.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/in.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ky.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/la.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/md.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/me.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/mi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/mn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/mo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ms.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/mt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/nc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/nd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ne.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/nh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/nj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/nm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/nv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ny.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/oh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/or.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/pa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ri.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/sc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/sd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/tn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/tx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/ut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/va.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/vt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/wa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/wi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/wv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/images/flags/wy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Controller/GradeController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Controller/GroupStudentController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Form/GradeType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Form/GroupStudentType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Repository/CourseRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Repository/GradeRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/Images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/Logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/anychart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/d3-donut.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/d3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/footnote.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/nav.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/print-media.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/Assets/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FOTestSuite3/js/xepOnline.jqPlugin.001.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FllableForm/FormTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FllableForm/js/xepOnline.jqPlugin.001.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FllableForm/xeponline-fo-translate-2.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/FOTestSuite.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/FOTestSuite2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/FormTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Images/Logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Style/footnote.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Style/nav.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Style/print-media.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Style/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/Style/xmlsamp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/XSL/winansi.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/XSL/xeponline-fo-translate-2.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/XSL/xeponline-fo-translate.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/js/anychart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/js/d3-donut.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/js/d3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/js/xepOnline.jqPlugin.001.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/js/xepOnline.jqPlugin.002.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/js/xepOnline.jqPlugin.004.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/js/xepOnline.jqPlugin.005.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/js/xepOnline.jqPlugin.006.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/js/xepOnline.jqPlugin.007.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/js/xepOnline.jqPlugin.008.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/Master/web.config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/js/xepOnline.jqPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/jquery/jquery-1.11.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/.jshintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/css/select2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/css/select2.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/az.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/i18n/zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/select2.full.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/select2.full.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/select2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/dist/js/select2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/_includes/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/_includes/head.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/_includes/navigation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/_layouts/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/_layouts/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/announcements-4.0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/community.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/examples.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/options.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/css/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/js/placeholders.jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/docs/vendor/js/prettify.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/select2.jquery.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/banner.end.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/banner.start.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/jquery.select2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/jquery.shim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/compat/initSelection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/compat/inputData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/compat/matcher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/compat/query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/data/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/data/array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/data/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/data/maximumInputLength.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/data/maximumSelectionLength.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/data/minimumInputLength.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/data/select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/data/tags.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/data/tokenizer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/diacritics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/dropdown/attachBody.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/dropdown/attachContainer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/dropdown/closeOnSelect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/dropdown/hidePlaceholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/dropdown/infiniteScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/dropdown/minimumResultsForSearch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/dropdown/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/dropdown/selectOnClose.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/dropdown/stopPropagation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/az.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/i18n/zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/keys.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/results.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/selection/allowClear.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/selection/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/selection/clickMask.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/selection/eventRelay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/selection/multiple.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/selection/placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/selection/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/selection/single.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/selection/stopPropagation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/translation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/select2/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/wrapper.end.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/js/wrapper.start.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/scss/_dropdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/scss/_multiple.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/scss/_single.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/scss/core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/scss/mixins/_gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/scss/theme/classic/_defaults.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/scss/theme/classic/_multiple.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/scss/theme/classic/_single.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/scss/theme/classic/layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/scss/theme/default/_multiple.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/scss/theme/default/_single.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/src/scss/theme/default/layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/a11y/selection-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/data/array-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/data/base-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/data/inputData-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/data/maximumInputLength-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/data/maximumSelectionLength-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/data/minimumInputLength-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/data/select-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/data/tags-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/dropdown/selectOnClose-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/dropdown/stopPropagation-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/integration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/integration/select2-methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/options/data-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/options/deprecated-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/options/width-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/selection/allowClear-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/selection/multiple-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/selection/placeholder-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/selection/single-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/selection/stopPropagation-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/unit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/utils/decorator-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/utils/escapeMarkup-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/vendor/jquery-1.7.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/vendor/qunit-1.14.0.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/tests/vendor/qunit-1.14.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/vendor/almond-0.2.9.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/vendor/jquery-2.1.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/select2-4.0.0-rc.2/vendor/jquery.mousewheel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/views/Grade/create.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/views/Grade/createForm.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/views/Grade/printReport.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/views/Grade/showReport.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/views/GroupStudent/index.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/views/GroupStudent/new.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/views/GroupStudent/show.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainBundle/Tests/Controller/GroupStudentControllerTest.php" />
-      <change type="DELETED" beforePath="C:\wamp\www\ProjetBDD\vendor\genemu\form-bundle\Genemu\Bundle\FormBundle\CHANGELOG.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Entity/Course.php" afterPath="$PROJECT_DIR$/src/MainBundle/Entity/Course.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Entity/Grade.php" afterPath="$PROJECT_DIR$/src/MainBundle/Entity/Grade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Entity/GroupStudent.php" afterPath="$PROJECT_DIR$/src/MainBundle/Entity/GroupStudent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Entity/Report.php" afterPath="$PROJECT_DIR$/src/MainBundle/Entity/Report.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Resources/public/css/main.css" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/public/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/views/Default/index.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/MainBundle/Resources/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StudentBundle/Controller/StudentController.php" afterPath="$PROJECT_DIR$/src/StudentBundle/Controller/StudentController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StudentBundle/Controller/UserController.php" afterPath="$PROJECT_DIR$/src/StudentBundle/Controller/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StudentBundle/Entity/Student.php" afterPath="$PROJECT_DIR$/src/StudentBundle/Entity/Student.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StudentBundle/Form/MedicalRecordType.php" afterPath="$PROJECT_DIR$/src/StudentBundle/Form/MedicalRecordType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StudentBundle/Repository/StudentRepository.php" afterPath="$PROJECT_DIR$/src/StudentBundle/Repository/StudentRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StudentBundle/Form/UserType.php" afterPath="$PROJECT_DIR$/src/StudentBundle/Form/UserType.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StudentBundle/Resources/views/Security/login.html.twig" afterPath="$PROJECT_DIR$/src/StudentBundle/Resources/views/Security/login.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StudentBundle/Resources/views/Student/index.html.twig" afterPath="$PROJECT_DIR$/src/StudentBundle/Resources/views/Student/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/.travis.yml" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/DependencyInjection/Configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/DependencyInjection/GenemuFormExtension.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/DependencyInjection/GenemuFormExtension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Core/EventListener/FileListener.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Core/EventListener/FileListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Core/Type/PlainType.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Core/Type/PlainType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Core/Type/ReCaptchaType.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Core/Type/ReCaptchaType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Core/Type/TinymceType.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Core/Type/TinymceType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Core/Validator/CaptchaValidator.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Core/Validator/CaptchaValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Core/Validator/ReCaptchaValidator.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Core/Validator/ReCaptchaValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Doctrine/ChoiceList/AjaxEntityChoiceList.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Doctrine/ChoiceList/AjaxEntityChoiceList.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/JQuery/Type/AutocompleteType.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/JQuery/Type/AutocompleteType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/JQuery/Type/DateType.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/JQuery/Type/DateType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/JQuery/Type/GeolocationType.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/JQuery/Type/GeolocationType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/JQuery/Type/ImageType.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/JQuery/Type/ImageType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/JQuery/Type/RatingType.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/JQuery/Type/RatingType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/JQuery/Type/Select2Type.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/JQuery/Type/Select2Type.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/JQuery/Type/TokeninputType.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/JQuery/Type/TokeninputType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Model/ChoiceList/AjaxModelChoiceList.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Model/ChoiceList/AjaxModelChoiceList.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Model/Type/AjaxModelType.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Form/Model/Type/AjaxModelType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Geolocation/AddressGeolocation.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Geolocation/AddressGeolocation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/README.md" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Resources/doc/captcha_gd/index.md" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Resources/doc/captcha_gd/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Resources/doc/jquery/geolocation/index.md" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Resources/doc/jquery/geolocation/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Resources/doc/jquery/select2/index.md" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Resources/doc/jquery/select2/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Resources/doc/recaptcha/default.md" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Resources/doc/recaptcha/default.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Resources/views/Form/div_layout.html.twig" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Resources/views/Form/div_layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Resources/views/Form/jquery_layout.html.twig" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Resources/views/Form/jquery_layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Resources/views/Form/stylesheet_layout.html.twig" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Resources/views/Form/stylesheet_layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/Core/Type/CaptchaTypeTest.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/Core/Type/CaptchaTypeTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/Core/Type/ReCaptchaTypeTest.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/Core/Type/ReCaptchaTypeTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/Doctrine/Type/DocumentAutocompleterTypeTest.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/Doctrine/Type/DocumentAutocompleterTypeTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/Doctrine/Type/EntityAutocompleterTypeTest.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/Doctrine/Type/EntityAutocompleterTypeTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/Extension/TypeExtensionTest.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/Extension/TypeExtensionTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/JQuery/Type/AutocompleterTypeTest.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/JQuery/Type/AutocompleterTypeTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/JQuery/Type/FileTypeTest.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/JQuery/Type/FileTypeTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/JQuery/Type/ImageTypeTest.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/JQuery/Type/ImageTypeTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/JQuery/Type/TokeninputTypeTest.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/Form/JQuery/Type/TokeninputTypeTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/bootstrap.php" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/Tests/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/UPGRADE 2.1.md" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/UPGRADE 2.1.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/composer.json" afterPath="$PROJECT_DIR$/vendor/genemu/form-bundle/Genemu/Bundle/FormBundle/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StudentBundle/Resources/views/User/new.html.twig" afterPath="$PROJECT_DIR$/src/StudentBundle/Resources/views/User/new.html.twig" />
     </list>
     <ignored path="ProjetBDD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -434,75 +31,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GradeController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/GradeController.php">
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="73" selection-start="3925" selection-end="3946" vertical-scroll-proportion="-13.096774">
-              <folding>
-                <element signature="e#1710#3360#0" expanded="false" />
-              </folding>
+            <state line="4" column="12" selection-start="85" selection-end="85" vertical-scroll-proportion="-2.8387096">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.html.twig" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="layout.html.twig" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="123" selection-start="1685" selection-end="1685" vertical-scroll-proportion="-17.258064">
+            <state line="26" column="35" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.3321471">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showReport.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/Grade/showReport.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="82" selection-start="2097" selection-end="2097" vertical-scroll-proportion="-17.258064">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xepOnline.jqPlugin.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/bundles/main/vendor/css-to-pdf/js/xepOnline.jqPlugin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="516" column="0" selection-start="22044" selection-end="22044" vertical-scroll-proportion="0.94889665">
-              <folding>
-                <marker date="1427681696834" expanded="false" signature="8088:8107" placeholder="..." />
-                <marker date="1427681696834" expanded="false" signature="19414:19452" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormTest.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FllableForm/FormTest.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="11" selection-start="767" selection-end="767" vertical-scroll-proportion="-11.354838">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xepOnline.jqPlugin.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/js/xepOnline.jqPlugin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1416201388000" expanded="false" signature="8088:8107" placeholder="..." />
-                <marker date="1416201388000" expanded="false" signature="19414:19452" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="printReport.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/Grade/printReport.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="61" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-17.032259">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -510,7 +52,34 @@
       <file leaf-file-name="login.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StudentBundle/Resources/views/Security/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="18" selection-start="0" selection-end="1734" vertical-scroll-proportion="-14.709678">
+            <state line="16" column="26" selection-start="734" selection-end="744" vertical-scroll-proportion="-6.516129">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StudentBundle/Resources/views/Student/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="51" selection-start="745" selection-end="745" vertical-scroll-proportion="-14.903226">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security-checker" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/security-checker">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GradeController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/GradeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="47" selection-start="1034" selection-end="1045" vertical-scroll-proportion="-3.548387">
               <folding />
             </state>
           </provider>
@@ -529,22 +98,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/Grade/create.html.twig" />
-        <option value="$PROJECT_DIR$/src/MainBundle/Entity/Grade.php" />
-        <option value="$PROJECT_DIR$/src/MainBundle/Repository/GradeRepository.php" />
-        <option value="$PROJECT_DIR$/src/StudentBundle/Controller/StudentController.php" />
-        <option value="$PROJECT_DIR$/src/MainBundle/Entity/Report.php" />
-        <option value="$PROJECT_DIR$/src/StudentBundle/Resources/views/Security/login.html.twig" />
-        <option value="$PROJECT_DIR$/src/MainBundle/Resources/public/css/main.css" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/Default/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/StudentBundle/Controller/UserController.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/MainBundle/Controller/GradeController.php" />
         <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/Grade/printReport.html.twig" />
-        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/Grade/showReport.html.twig" />
+        <option value="$PROJECT_DIR$/src/StudentBundle/Form/UserType.php" />
+        <option value="$PROJECT_DIR$/src/StudentBundle/Resources/views/User/new.html.twig" />
+        <option value="$PROJECT_DIR$/src/StudentBundle/Resources/views/Security/login.html.twig" />
+        <option value="$PROJECT_DIR$/src/StudentBundle/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/src/StudentBundle/Fixtures/ORM/UserFixtures.php" />
+        <option value="$PROJECT_DIR$/src/StudentBundle/DataFixtures/ORM/UserFixtures.php" />
+        <option value="$PROJECT_DIR$/bin/reinit.sh" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/src/StudentBundle/Resources/views/Student/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/layout.html.twig" />
       </list>
     </option>
   </component>
@@ -597,6 +166,75 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ProjetBDD">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ProjetBDD">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ProjetBDD">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="MainBundle">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ProjetBDD">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="MainBundle">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Controller">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Changed Files" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -816,6 +454,40 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="User" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetBDD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetBDD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Student" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -883,6 +555,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetBDD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetBDD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetBDD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetBDD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="MainBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -910,36 +626,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MainBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Grade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1013,238 +699,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MainBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css-to-pdf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MainBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css-to-pdf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MainBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MainBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjetBDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MainBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetBDD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ProjetBDD">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetBDD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ProjetBDD">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ProjetBDD">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="MainBundle">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ProjetBDD">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="MainBundle">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Controller">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-        <subPane subId="Changed Files" />
       </pane>
     </panes>
   </component>
@@ -1252,9 +725,9 @@
     <property name="options.splitter.main.proportions" value="0.30083334" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="Errors" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1318,13 +791,11 @@
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18783352" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18996799" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1333,6 +804,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1393,91 +866,22 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="26" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="9" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/CourseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="12" selection-start="409" selection-end="409" vertical-scroll-proportion="0.41755635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="91" selection-end="91" vertical-scroll-proportion="0.07829182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="58" selection-start="977" selection-end="977" vertical-scroll-proportion="0.5219454">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StudentBundle/Controller/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="13" selection-start="2171" selection-end="2171" vertical-scroll-proportion="0.71293">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StudentBundle/Resources/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="18" selection-start="0" selection-end="1734" vertical-scroll-proportion="-14.709678">
-          <folding />
-        </state>
+        <state line="20" column="58" selection-start="977" selection-end="977" vertical-scroll-proportion="0.5219454" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/Grade/printReport.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="61" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-17.032259">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="24" column="61" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.62633455">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/public/vendor/css-to-pdf/examples/FllableForm/FormTest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="767" selection-end="767" vertical-scroll-proportion="-11.354838">
+        <state line="16" column="11" selection-start="767" selection-end="767" vertical-scroll-proportion="0.026097272">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/GradeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="73" selection-start="3925" selection-end="3946" vertical-scroll-proportion="-13.096774">
-          <folding>
-            <element signature="e#1710#3360#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1491,27 +895,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/layout.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/bundles/main/vendor/css-to-pdf/js/xepOnline.jqPlugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="123" selection-start="1685" selection-end="1685" vertical-scroll-proportion="-17.258064">
-          <folding />
+        <state line="516" column="0" selection-start="22044" selection-end="22044" vertical-scroll-proportion="0.8757259">
+          <folding>
+            <marker date="1427749277071" expanded="false" signature="8088:8107" placeholder="..." />
+            <marker date="1427749277071" expanded="false" signature="19414:19452" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/Grade/showReport.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="82" selection-start="2097" selection-end="2097" vertical-scroll-proportion="-17.258064">
+        <state line="64" column="82" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.60854095">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/main/vendor/css-to-pdf/js/xepOnline.jqPlugin.js">
+    <entry file="file://$PROJECT_DIR$/src/StudentBundle/Form/UserType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="516" column="0" selection-start="22044" selection-end="22044" vertical-scroll-proportion="0.94889665">
-          <folding>
-            <marker date="1427681696834" expanded="false" signature="8088:8107" placeholder="..." />
-            <marker date="1427681696834" expanded="false" signature="19414:19452" placeholder="..." />
-          </folding>
+        <state line="32" column="25" selection-start="933" selection-end="933" vertical-scroll-proportion="0.8351127">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentBundle/Resources/views/User/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="27" selection-start="259" selection-end="259" vertical-scroll-proportion="0.2609727">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentBundle/Controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="38" selection-start="1746" selection-end="1746" vertical-scroll-proportion="-10.903226">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="694" selection-end="694" vertical-scroll-proportion="0.7048055">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/security-checker">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/GradeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="47" selection-start="1034" selection-end="1045" vertical-scroll-proportion="-3.548387">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentBundle/Resources/views/Student/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="51" selection-start="745" selection-end="745" vertical-scroll-proportion="-14.903226">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentBundle/Resources/views/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="26" selection-start="734" selection-end="744" vertical-scroll-proportion="-6.516129">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="85" selection-end="85" vertical-scroll-proportion="-2.8387096">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="35" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.3321471">
+          <folding />
         </state>
       </provider>
     </entry>

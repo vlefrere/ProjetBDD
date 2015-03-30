@@ -61,6 +61,7 @@ class UserController extends Controller {
             $em = $this->getDoctrine()->getManager();
             $entity->setUsername($entity->getEmail());
             $entity->addRole($entity->getUserType());
+            $entity->setEnabled(true);
 
             if ($entity->getUserType() == 'ROLE_STUDENT') {
                 return $this->redirect($this->generateUrl('student_create', array('userId' => $entity->getId())));

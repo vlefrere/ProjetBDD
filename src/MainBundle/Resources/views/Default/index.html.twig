@@ -1,5 +1,23 @@
 {% extends "MainBundle::layout.html.twig" %}
 
 {% block body %}
-    Hello {{ user.username }}!
+    <div>
+        <ul>
+            <li>
+                <a href="{{ path('user') }}">Créer un nouvel utilisateur (Etudiant/Professeur/Administrateur)</a>
+            </li>
+            <li>
+                <a href="{{ path('course') }}">Créer de nouveaux cours</a>
+            </li>
+            <li>
+                <a href="{{ path('group') }}">Créer de nouveaux groupes</a>
+            </li>
+            <li>
+                <a href="{{ path('student') }}">Ajouter des notes</a>
+            </li>
+            <li>
+                <a href="{{ path('student') }}">Afficher / Imprimer Le bulletin</a>
+            </li>
+        </ul>
+    </div>
 {% endblock %}

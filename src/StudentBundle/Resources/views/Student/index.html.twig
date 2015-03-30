@@ -17,7 +17,10 @@
             <tr>
                 <td>{{ entity.matricule }}</td>
                 <td>{% if entity.registerDate %}{{ entity.registerDate|date('d-m-Y') }}{% endif %}</td>
-                <td><a href="{{ path('grade_create', {'id': entity.id}) }}" class="btn btn-default">Ajouter/Modifier une note</a> </td>
+                <td>
+                    <a href="{{ path('grade_create', {'id': entity.id}) }}" class="btn btn-default">Ajouter/Modifier une note</a>
+                    <a href="{{ path('show_report', {'id': entity.id}) }}" class="btn btn-default">Afficher le bulletin</a>
+                </td>
                 <td>
                 <ul>
                     <li>
